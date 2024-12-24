@@ -1,0 +1,25 @@
+name: keystore_manager
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.2.4
+
+# Add regular dependencies here.
+dependencies:
+  args: 2.4.2
+  googleapis: 11.4.0
+  googleapis_auth: 1.4.1
+  path: 1.8.3
+  # path: ^1.8.0
+
+
+executables:
+  keystore: keystore_manager
+
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
+
